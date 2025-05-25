@@ -199,12 +199,13 @@ def main():
             help="Enter any Shopee product URL. Short URLs will be automatically expanded."
         )
         
-        affiliate_id = st.text_input(
-            "Your Affiliate ID:",
-            value="an_15310390250",
-            help="This will be added as the affiliate parameter to the product URL.",
-            disabled=True,
-        )
+        affiliate_id = "an_15310390250"
+        #affiliate_id = st.text_input(
+        #    "Affiliate ID:",
+        #    value="an_15310390250",
+        #    help="This will be added as the affiliate parameter to the product URL.",
+        #    disabled=True,
+        #)
         
         col1, col2 = st.columns(2)
         with col1:
