@@ -276,16 +276,16 @@ def main():
             #st.markdown("### 🎉 Your Affiliate Link is Ready!")
 
             st.markdown(f'''
-            <div style="text-align:center; margin: 2rem 0;">
+            <div style="text-align:center; margin: 1rem 0;">
                 <a href="{affiliate_link}" target="_blank">
-                    <button style="background-color:#ee4d2d; color:white; padding: 12px 24px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer;">
+                    <button style="background-color:#ee4d2d; color:white; padding: 12px 48px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer;">
                         🔗 Open Affiliate Link
                     </button>
                 </a>
             </div>
             ''', unsafe_allow_html=True)
 
-            st.success("🙏 Thank you! Your link is ready to use.")
+            st.success("🙏 Thank you for your support.")
 
             
         except Exception as e:
