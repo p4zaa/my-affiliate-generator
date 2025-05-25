@@ -141,7 +141,7 @@ def extract_product_info(url):
 
 def main():
     st.set_page_config(
-        page_title="Shopee Affiliate Link Generator",
+        page_title="Pa's Shopee Affiliate Link",
         page_icon="🛍️",
         layout="centered"
     )
