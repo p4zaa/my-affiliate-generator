@@ -189,7 +189,7 @@ def main():
     """, unsafe_allow_html=True)
     
     # Header
-    st.markdown('<h1 class="main-header">🛍️ Shopee Affiliate Link Generator</h1>', unsafe_allow_html=True)
+    st.markdown('<h2 class="main-header">🥹 Support Pa With a Cup of Tea 🍵</h2>', unsafe_allow_html=True)
     
     # Input fields
     with st.form("affiliate_form"):
